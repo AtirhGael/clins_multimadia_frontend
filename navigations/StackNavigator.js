@@ -1,3 +1,4 @@
+import Home from '../screens/Home';
 import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import { NavigationContainer } from '@react-navigation/native';
@@ -15,6 +16,9 @@ function StackNavigator() {
                 <Tab.Screen name="register" component={RegisterScreen} options={{
                     headerShown:false
                 }} />
+                <Tab.Screen name='home' component={Home} options={{
+                    headerShown:false
+                }}/>
             </Tab.Navigator>
         </NavigationContainer>
     );

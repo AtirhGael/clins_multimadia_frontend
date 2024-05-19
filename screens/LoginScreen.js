@@ -41,7 +41,7 @@ const LoginScreen = () => {
                     </View>
                 </View>
                 <Text style={{paddingTop:15,textAlign:'right',color:'#000',fontSize:15}}>Forgot password?</Text>
-                <Pressable onPress={()=>navigation.navigate('register')} style={{alignItems:'center',justifyContent:'center',width:'100%',backgroundColor:'#000',marginTop:40,height:50,borderRadius:10}}>
+                <Pressable onPress={()=>navigation.navigate('home')} style={{alignItems:'center',justifyContent:'center',width:'100%',backgroundColor:'#000',marginTop:40,height:50,borderRadius:10}}>
                     <Text style={{color:'#FFF',fontSize:18,fontWeight:'700'}}>Sign In</Text>
                 </Pressable>
             </KeyboardAvoidingView>
